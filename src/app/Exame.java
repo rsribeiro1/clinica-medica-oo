@@ -9,7 +9,7 @@ public class Exame {
     private String resultado;
     private double custo;
 
-    public Exame(String tipo, LocalDate dataPrescricao, LocalDate dataRealizacao, String resultado, double custo) {
+    public Exame(String tipo, LocalDate dataPrescricao, double custo) {
         this.tipo = tipo;
         this.dataPrescricao = dataPrescricao;
         this.dataRealizacao = dataRealizacao;

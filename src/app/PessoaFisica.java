@@ -9,9 +9,6 @@ public abstract class PessoaFisica {
         this.cpf = cpf;
         this.dtNascimento = dtNascimento;
     }
-    public abstract void mostrarHistoricoConsultas();
-    public abstract void mostrarHistoricoExames();
-
     public String getNome() {
         return nome;
     }
